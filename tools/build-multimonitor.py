@@ -61,7 +61,7 @@ A camera that records shows REC and the time on its tile; a red frame marks it.<
 <p>The bar under the grid holds the overlays and four <strong>Fn buttons</strong> you choose yourself. <strong>Display</strong> sets what the tiles show: camera names, frame rate and picture age, function buttons.</p>""", "rec-all.jpg"),
   ("Picture overlays and LUTs", """
 <p><strong>Focus peaking</strong> marks the sharp edges, <strong>false color</strong> paints exposure levels, <strong>zebra</strong> stripes the bright areas. Each can be on for all cameras or for some of them (the small 1/4 tag tells how many); colours and thresholds are in the camera settings.</p>
-<p>Each camera can show a <strong>LUT</strong> (<code>.cube</code>) applied before the overlays — one is built in, and you can import your own from the Files app.</p>
+<p>Each camera can show a <strong>LUT</strong> (<code>.cube</code>) applied before the overlays — import your own from the Files app.</p>
 <p>The overlays read the camera's live view: a compressed preview of what the camera shows. Use them to judge focus and exposure, not as a measuring instrument.</p>""", "overlays.jpg"),
   ("One camera: focus, exposure, zoom", """
 <p>Tap a tile to open the camera full screen. <strong>Tap the picture</strong> to move the focus point there. The pill at the bottom shows aperture, shutter and ISO — tap a value and turn the <strong>dial</strong> to change it.
@@ -78,7 +78,7 @@ The tips above the camera list can be hidden and brought back in <strong>Setting
 <li><strong>The camera is not found</strong> — check that its Wi-Fi connection to a smartphone is on and that LUMIX Sync is closed. On an iPhone hotspot, try turning <strong>Maximize Compatibility</strong> on if the camera cannot see the hotspot.</li>
 <li><strong>Nothing connects</strong> — allow Local Network access: iOS Settings › Privacy &amp; Security › Local Network.</li>
 <li><strong>REC fails with “busy”</strong> — the camera is in a menu or in playback; close it on the camera.</li>
-<li>Still stuck? Share the diagnostic log from Settings › Help and <a href="{CONTACT}">contact us</a>.</li>
+<li>Still stuck? Tap <strong>Report a problem</strong> in Settings › Help: it opens an e-mail to us with the app version and the latest lines of the diagnostic log. You can also <a href="{CONTACT}">contact us</a> here.</li>
 </ul>""", None),
   ("Coming soon", """
 <p>Switching AF / MF, AF mode and area, white balance presets, camera status (card time, battery) and focus frames from the camera.</p>""", None),
@@ -104,7 +104,7 @@ Nagrywająca kamera ma na kaflu REC z czasem i czerwoną ramkę.</p>
 <p>Pasek pod siatką ma nakładki i cztery <strong>przyciski Fn</strong>, które wybierasz sam. <strong>Display</strong> ustala, co pokazują kafle: nazwy kamer, klatki i wiek obrazu, przyciski funkcyjne.</p>""", "rec-all.jpg"),
   ("Nakładki i LUT-y", """
 <p><strong>Focus peaking</strong> zaznacza ostre krawędzie, <strong>false color</strong> koloruje poziomy ekspozycji, <strong>zebra</strong> paskuje jasne miejsca. Każdą włączysz dla wszystkich kamer albo części (mała plakietka 1/4 mówi ilu); kolory i progi są w ustawieniach kamery.</p>
-<p>Każda kamera może mieć <strong>LUT</strong> (<code>.cube</code>) nakładany przed nakładkami — jeden jest wbudowany, własne zaimportujesz z aplikacji Pliki.</p>
+<p>Każda kamera może mieć <strong>LUT</strong> (<code>.cube</code>) nakładany przed nakładkami — własne pliki zaimportujesz z aplikacji Pliki.</p>
 <p>Nakładki czytają podgląd z aparatu: skompresowany obraz tego, co pokazuje aparat. Służą do oceny ostrości i ekspozycji, nie do pomiarów.</p>""", "overlays.jpg"),
   ("Jedna kamera: ostrość, ekspozycja, powiększenie", """
 <p>Stuknij kafel, aby otworzyć kamerę na całym ekranie. <strong>Stuknij obraz</strong>, aby przenieść tam punkt ostrości. Pigułka na dole pokazuje przysłonę, czas i ISO — stuknij wartość i zmień ją <strong>pokrętłem</strong>.
@@ -121,7 +121,7 @@ Wskazówki nad listą kamer ukryjesz i przywrócisz w <strong>Ustawienia › Pom
 <li><strong>Nie widać aparatu</strong> — sprawdź, czy ma włączone połączenie Wi-Fi ze smartfonem i czy LUMIX Sync jest zamknięty. Na hotspocie iPhone'a włącz <strong>Maksymalizuj zgodność</strong>, jeśli aparat nie widzi hotspotu.</li>
 <li><strong>Nic się nie łączy</strong> — zezwól na sieć lokalną: Ustawienia iOS › Prywatność i ochrona › Sieć lokalna.</li>
 <li><strong>REC kończy się „busy”</strong> — aparat jest w menu albo w odtwarzaniu; zamknij je na aparacie.</li>
-<li>Dalej nie działa? Wyślij dziennik z Ustawienia › Pomoc i <a href="{CONTACT}">napisz do nas</a>.</li>
+<li>Dalej nie działa? Stuknij <strong>Zgłoś problem</strong> w Ustawienia › Pomoc: otworzy się e-mail do nas z wersją aplikacji i ostatnimi wpisami dziennika diagnostycznego. Możesz też <a href="{CONTACT}">napisać do nas</a> tutaj.</li>
 </ul>""", None),
   ("Wkrótce", """
 <p>Przełączanie AF / MF, tryb i obszar AF, predefiniowany balans bieli, stan aparatu (czas na karcie, bateria) i ramki ostrości z aparatu.</p>""", None),
