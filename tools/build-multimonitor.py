@@ -1,8 +1,8 @@
-"""Writes the MonitorApp pages of nowakproduction.github.io (EN + PL)."""
+"""Writes the MultiMonitor pages of nowakproduction.github.io (EN + PL)."""
 import pathlib, sys
 
-SITE = pathlib.Path(sys.argv[1]) / "monitorapp"
-APP = "MonitorApp"  # working name; rename here when the product name is chosen
+SITE = pathlib.Path(sys.argv[1]) / "multimonitor"
+APP = "MultiMonitor"
 CONTACT = "https://github.com/nowakproduction/nowakproduction.github.io/issues"
 UPDATED_EN, UPDATED_PL = "10 November 2026", "10 listopada 2026"
 
