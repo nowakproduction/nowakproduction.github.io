@@ -42,7 +42,7 @@ def card(img, title, text, root):
 GUIDE = {
 "en": dict(title=f"{APP} — guide", h1="Monitor up to four LUMIX cameras on your iPhone or iPad",
  lead="Live picture from every camera in one grid, recording on all of them with one button, focus peaking, false color, zebra and LUTs — over the cameras' own Wi-Fi, with no internet needed on set.",
- toc=["Getting started", "The camera list", "The grid and REC ALL", "Picture overlays and LUTs", "One camera: focus, exposure, zoom", "Settings", "Free and Pro", "Cameras", "Troubleshooting", "Coming soon"],
+ toc=["Getting started", "The camera list", "The grid and REC ALL", "Picture overlays and LUTs", "One camera: focus, exposure, zoom", "Settings", "Free and Multicam", "Cameras", "Troubleshooting", "Coming soon"],
  sections=[
   ("Getting started", """
 <p>1. Turn on the camera's Wi-Fi connection to a smartphone (on the camera: <strong>Wi-Fi → connection to a smartphone</strong>).<br>
@@ -69,8 +69,8 @@ A camera that records shows REC and the time on its tile; a red frame marks it.<
   ("Settings", """
 <p>Language (English, Polish), theme (<strong>Dark</strong>, or <strong>Sun</strong> for bright daylight), your licence and restore purchases, help and a diagnostic log you can share when something goes wrong.
 The tips above the camera list can be hidden and brought back in <strong>Settings › Help</strong>.</p>""", None),
-  ("Free and Pro", """
-<p>One camera is free with every feature. <strong>Pro</strong> is a one-time purchase that unlocks up to four cameras at once — no subscription. Bought on another device? <strong>Restore purchases</strong> in Settings.</p>""", None),
+  ("Free and Multicam", """
+<p>One camera is free with every feature. <strong>Multicam</strong> is a one-time purchase that unlocks up to four cameras at once — no subscription. Bought on another device? <strong>Restore purchases</strong> in Settings.</p>""", None),
   ("Cameras", """
 <p>Panasonic LUMIX cameras with Wi-Fi remote control. Tested on the LUMIX S5II / S5IIX; other recent LUMIX bodies with the same remote protocol are expected to work.</p>""", None),
   ("Troubleshooting", """
@@ -85,7 +85,7 @@ The tips above the camera list can be hidden and brought back in <strong>Setting
  ]),
 "pl": dict(title=f"{APP} — poradnik", h1="Podgląd do czterech kamer LUMIX na iPhonie i iPadzie",
  lead="Obraz ze wszystkich kamer w jednej siatce, nagrywanie na wszystkich jednym przyciskiem, focus peaking, false color, zebra i LUT-y — przez Wi-Fi kamer, bez internetu na planie.",
- toc=["Pierwsze kroki", "Lista kamer", "Siatka i REC ALL", "Nakładki i LUT-y", "Jedna kamera: ostrość, ekspozycja, powiększenie", "Ustawienia", "Wersja darmowa i Pro", "Aparaty", "Gdy coś nie działa", "Wkrótce"],
+ toc=["Pierwsze kroki", "Lista kamer", "Siatka i REC ALL", "Nakładki i LUT-y", "Jedna kamera: ostrość, ekspozycja, powiększenie", "Ustawienia", "Wersja darmowa i Multicam", "Aparaty", "Gdy coś nie działa", "Wkrótce"],
  sections=[
   ("Pierwsze kroki", """
 <p>1. Włącz w aparacie połączenie Wi-Fi ze smartfonem (w aparacie: <strong>Wi-Fi → połączenie ze smartfonem</strong>).<br>
@@ -112,8 +112,8 @@ Nagrywająca kamera ma na kaflu REC z czasem i czerwoną ramkę.</p>
   ("Ustawienia", """
 <p>Język (polski, angielski), motyw (<strong>Ciemny</strong> albo <strong>Słońce</strong> na jasny dzień), licencja i przywracanie zakupów, pomoc oraz dziennik diagnostyczny do wysłania, gdy coś nie działa.
 Wskazówki nad listą kamer ukryjesz i przywrócisz w <strong>Ustawienia › Pomoc</strong>.</p>""", None),
-  ("Wersja darmowa i Pro", """
-<p>Jedna kamera jest darmowa, ze wszystkimi funkcjami. <strong>Pro</strong> to jednorazowy zakup, który odblokowuje do czterech kamer naraz — bez subskrypcji. Kupione na innym urządzeniu? <strong>Przywróć zakupy</strong> w Ustawieniach.</p>""", None),
+  ("Wersja darmowa i Multicam", """
+<p>Jedna kamera jest darmowa, ze wszystkimi funkcjami. <strong>Multicam</strong> to jednorazowy zakup, który odblokowuje do czterech kamer naraz — bez subskrypcji. Kupione na innym urządzeniu? <strong>Przywróć zakupy</strong> w Ustawieniach.</p>""", None),
   ("Aparaty", """
 <p>Aparaty Panasonic LUMIX ze zdalnym sterowaniem przez Wi-Fi. Testowane na LUMIX S5II / S5IIX; inne nowe korpusy LUMIX z tym samym protokołem powinny działać.</p>""", None),
   ("Gdy coś nie działa", """
@@ -155,7 +155,7 @@ PRIVACY = f"""
 <h3>What we do not do</h3>
 <ul><li>No account, no advertising, no analytics, no tracking, no selling of data.</li></ul>
 <h3>Purchases</h3>
-<p>Pro is bought through Apple's App Store; Apple handles the payment. To confirm and restore purchases the app uses <a href="https://www.revenuecat.com/privacy">RevenueCat</a>, which receives an anonymous app user ID and the purchase details from Apple — no name, e-mail or payment card.</p>
+<p>Multicam is bought through Apple's App Store; Apple handles the payment. To confirm and restore purchases the app uses <a href="https://www.revenuecat.com/privacy">RevenueCat</a>, which receives an anonymous app user ID and the purchase details from Apple — no name, e-mail or payment card.</p>
 <h3>Local network</h3>
 <p>iOS asks for access to the local network because the app talks directly to the cameras. The app does not scan the network on its own: it looks for cameras only when you tap Add camera, Connect or Search.</p>
 <h3>Children</h3>
@@ -175,7 +175,7 @@ PRIVACY = f"""
 <h3>Czego nie robimy</h3>
 <ul><li>Bez konta, bez reklam, bez analityki, bez śledzenia, bez sprzedaży danych.</li></ul>
 <h3>Zakupy</h3>
-<p>Pro kupujesz przez App Store; płatność obsługuje Apple. Do potwierdzania i przywracania zakupów aplikacja używa usługi <a href="https://www.revenuecat.com/privacy">RevenueCat</a>, która dostaje anonimowy identyfikator aplikacji i dane zakupu od Apple — bez imienia, e-maila ani karty.</p>
+<p>Multicam kupujesz przez App Store; płatność obsługuje Apple. Do potwierdzania i przywracania zakupów aplikacja używa usługi <a href="https://www.revenuecat.com/privacy">RevenueCat</a>, która dostaje anonimowy identyfikator aplikacji i dane zakupu od Apple — bez imienia, e-maila ani karty.</p>
 <h3>Sieć lokalna</h3>
 <p>iOS pyta o dostęp do sieci lokalnej, bo aplikacja łączy się bezpośrednio z kamerami. Aplikacja nie przeszukuje sieci sama z siebie: szuka kamer tylko po stuknięciu Dodaj kamerę, Połącz albo Szukaj.</p>
 <h3>Dzieci</h3>
@@ -191,7 +191,7 @@ TERMS = f"""
 <p>{APP} is licensed under Apple's <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Standard End User License Agreement</a>. In addition:</p>
 <ul>
 <li><strong>A monitoring aid.</strong> The app shows a compressed live preview over Wi-Fi. It does not replace checking focus, exposure and recording on the camera itself, and we cannot guarantee that every recording starts or stops — the camera and its card decide.</li>
-<li><strong>Pro</strong> is a one-time, non-consumable in-app purchase. Payments, refunds and restoring go through Apple.</li>
+<li><strong>Multicam</strong> is a one-time, non-consumable in-app purchase. Payments, refunds and restoring go through Apple.</li>
 <li><strong>Not affiliated with Panasonic.</strong> LUMIX is a trademark of Panasonic Holdings Corporation; it is used only to name the cameras the app works with.</li>
 <li>The app is provided “as is”, to the extent the law allows.</li>
 </ul>
@@ -202,7 +202,7 @@ TERMS = f"""
 <p>{APP} jest udostępniana na zasadach <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">standardowej licencji użytkownika końcowego Apple</a>. Dodatkowo:</p>
 <ul>
 <li><strong>Narzędzie pomocnicze.</strong> Aplikacja pokazuje skompresowany podgląd przez Wi-Fi. Nie zastępuje sprawdzenia ostrości, ekspozycji i nagrywania na samym aparacie i nie możemy zagwarantować, że każde nagranie się uruchomi lub zatrzyma — decydują aparat i karta.</li>
-<li><strong>Pro</strong> to jednorazowy zakup w aplikacji. Płatności, zwroty i przywracanie obsługuje Apple.</li>
+<li><strong>Multicam</strong> to jednorazowy zakup w aplikacji. Płatności, zwroty i przywracanie obsługuje Apple.</li>
 <li><strong>Brak związku z Panasonic.</strong> LUMIX jest znakiem towarowym Panasonic Holdings Corporation; służy tu tylko do nazwania aparatów, z którymi działa aplikacja.</li>
 <li>Aplikacja jest udostępniana „tak jak jest”, w granicach dozwolonych przez prawo.</li>
 </ul>
