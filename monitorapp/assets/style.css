@@ -1,0 +1,37 @@
+/* Colours, type and radii from the app's design system (theme "Dark"). */
+@font-face { font-family: Geist; src: url(fonts/Geist-Regular.ttf); font-weight: 400; font-display: swap; }
+@font-face { font-family: Geist; src: url(fonts/Geist-Medium.ttf); font-weight: 500; font-display: swap; }
+@font-face { font-family: Geist; src: url(fonts/Geist-SemiBold.ttf); font-weight: 600; font-display: swap; }
+:root {
+  --bg: #0a0a0a; --surface: #141414; --surface-raised: #1f1f1f; --surface-high: #2a2a2a;
+  --line: #2b2b2b; --ink: #f5f5f5; --ink-muted: #a3a3a3; --rec: #ff5a4f; --live: #4bd67e;
+  --connecting: #4da6ff; --warn: #ffb340; --radius-md: 12px; --radius-lg: 18px;
+}
+* { box-sizing: border-box; }
+html { background: var(--bg); color: var(--ink); font: 400 17px/1.55 Geist, -apple-system, system-ui, sans-serif; }
+body { margin: 0; }
+a { color: var(--ink); text-underline-offset: 3px; }
+.wrap { max-width: 760px; margin: 0 auto; padding: 0 16px 64px; }
+header.top { display: flex; align-items: center; gap: 12px; padding: 20px 0; }
+header.top .name { font-weight: 600; font-size: 20px; text-decoration: none; }
+header.top nav { margin-left: auto; display: flex; gap: 16px; font-size: 15px; }
+header.top nav a { color: var(--ink-muted); text-decoration: none; }
+header.top nav a:hover, header.top nav a[aria-current] { color: var(--ink); }
+h1 { font-size: 34px; line-height: 1.15; font-weight: 600; margin: 24px 0 8px; letter-spacing: -0.01em; }
+h2 { font-size: 24px; font-weight: 600; margin: 48px 0 12px; }
+h3 { font-size: 18px; font-weight: 600; margin: 24px 0 6px; }
+p, li { color: var(--ink-muted); }
+p strong, li strong { color: var(--ink); font-weight: 500; }
+.lead { font-size: 19px; }
+.card { background: var(--surface-raised); border-radius: var(--radius-lg); overflow: hidden; margin: 16px 0; }
+.card img { display: block; width: 100%; height: auto; }
+.card .text { padding: 14px 18px 18px; }
+.card .text p { margin: 4px 0 0; }
+.toc { background: var(--surface); border-radius: var(--radius-md); padding: 12px 18px; }
+.toc ol { margin: 0; padding-left: 20px; }
+.note { border-left: 3px solid var(--warn); padding: 4px 0 4px 14px; }
+.dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 6px; vertical-align: 1px; }
+.dot.live { background: var(--live); } .dot.connecting { background: var(--connecting); } .dot.off { background: var(--ink-muted); }
+footer { margin-top: 64px; padding-top: 16px; border-top: 1px solid var(--line); font-size: 14px; color: var(--ink-muted); }
+footer a { color: var(--ink-muted); }
+code { background: var(--surface-high); border-radius: 6px; padding: 1px 6px; font-size: 15px; }
